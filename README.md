@@ -29,6 +29,7 @@
 │   ├── images
 │   ├── css
 │   └── js
+├── docs (文档和sql文件)
 ├── .gitignore
 ├── app.js
 ├── package-lock.json
@@ -40,14 +41,14 @@
 + 请在Linux或者windows系统下确保安装了正确版本的Node.js 和 MySQL教程自行学习。
 + 进入目录cd iBlog
 + 安装依赖包 npm install
-+ 打开MySQL，创建一个名叫node的数据库导入deco里面的blog.sql修改model.js里面的数据库连接
++ 打开MySQL，创建一个名叫node的数据库导入docs里面的blog.sql修改model.js里面的数据库连接
 + npm i 安装所需要的包
 + npm start 运行
 
 ## ScreenShot
-![index](./assets/images/index.png)
-![info](./assets/images/info.png)
-![edit](./assets/images/edit.jpg)
-![add](./assets/images/add.jpg)
-![login](./assets/images/login.png)
-![register](./assets/images/register.png)
+![index](http://p3puarvng.bkt.clouddn.com/iBlog/images/index.png)
+![info](http://p3puarvng.bkt.clouddn.com/iBlog/images/info.png)
+![edit](http://p3puarvng.bkt.clouddn.com/iBlog/images/edit.jpg)
+![add](http://p3puarvng.bkt.clouddn.com/iBlog/images/add.jpg)
+![login](http://p3puarvng.bkt.clouddn.com/iBlog/images/login.png)
+![register](http://p3puarvng.bkt.clouddn.com/iBlog/images/register.png)
