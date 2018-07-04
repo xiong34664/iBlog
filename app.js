@@ -16,6 +16,9 @@ app.use(session({
 }))
 //当使用如上的步骤  配置完毕Session中间件之后 今后紫瑶能够访问到req  那么就能够访问到req.session这个对象
 
+//打开浏览器
+var opn = require('opn');
+
 //配置模板引擎
 //ejs模板引擎中默认文件后缀为ejs
 app.set('wive engine','ejs')
@@ -40,6 +43,7 @@ const moment = require('moment')
 
 app.listen(3000, () => {
     console.log('express server running at http://127.0.0.1:3000')
+    opn("http://localhost:3000")
 })
 
 //打印请求中间件
