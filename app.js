@@ -4,8 +4,12 @@
  * 项目入口文件
  */
 const express = require('express')
+const compression = require('compression')
 //创建web服务器
 const app = express()
+
+//注册资源压缩中间件
+app.use(compression())
 
 //导入并注册express-session中间件
 const session = require('express-session')
